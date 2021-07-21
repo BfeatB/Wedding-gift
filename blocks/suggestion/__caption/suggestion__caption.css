@@ -3,3 +3,9 @@
     line-height: 28px;
     margin: 42px 0 60px 4px;
 }
+
+@media screen and (max-width: 767px) {
+    .suggestion__caption {
+        text-align: center;
+    }
+}

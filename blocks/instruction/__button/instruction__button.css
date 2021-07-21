@@ -13,3 +13,9 @@
     padding: 18px 45px 17px 48px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .instruction__button {
+        margin: 0 auto;
+    }
+}

@@ -2,3 +2,16 @@
     padding: 21% 23% 15% 15%;
     margin: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .instruction__texts {
+        padding: 10% 15% 15% 15%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .instruction__texts {
+        padding: 10% 10% 10% 10%;
+    }
+}

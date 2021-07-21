@@ -4,3 +4,9 @@
     line-height: 28px;
     text-align: justify;
 }
+
+@media screen and (max-width: 767px) {
+    .instruction__caption {
+        text-align: center;
+    }
+}

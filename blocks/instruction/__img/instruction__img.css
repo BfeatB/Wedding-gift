@@ -1,3 +1,26 @@
 .instruction__img {
-    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .instruction__img {
+        object-fit: contain;
+        object-position: top;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .instruction__img {
+        padding-top: 13%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .instruction__img {
+        max-height: 300px;
+        padding: 0;
+    }
 }
