@@ -2,3 +2,22 @@
     margin: 0 0 0 32px;
     text-transform: capitalize;
 }
+
+
+@media screen and (max-width: 767px, min-width:421px) {
+    .header__item {
+       margin-bottom: 15px;
+    }
+
+    .header__item:first-child {
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__item  {
+        margin: 0 47px 0 0;
+        align-self: flex-end;
+        margin-bottom: 10px;
+    }
+}

@@ -3,3 +3,14 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 767px) {
+    .header {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .header:last-child {
+        justify-content: center;
+    }
+}
