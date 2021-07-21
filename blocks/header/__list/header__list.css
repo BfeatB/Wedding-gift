@@ -1,5 +1,9 @@
 .header__list {
     list-style: none;
+    display: -webkit-flex;
     display: flex;
-    padding-top: 29px;
+    margin: 0 0 0 0;
+    padding: 45px 0 0 28px;
+    justify-content: space-between;
+    min-width: 311px;
 }

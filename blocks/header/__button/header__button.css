@@ -1,9 +1,13 @@
 .header__button {
     border: 1px solid #F7941E;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F7941E;
     box-sizing: border-box;
     border-radius: 5px;
-    min-width: 150px;
-    padding: 0 auto;
+    padding: 9px 24px;
     text-transform: uppercase;
-    margin: 0 0 0 0;
+    margin: 39px 33px 0 0;
+    background-color: transparent;
+    font-family: 'Gilroy', 'Arial', sans-serif;
 }
