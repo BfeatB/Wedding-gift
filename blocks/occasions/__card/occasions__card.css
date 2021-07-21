@@ -1,6 +1,7 @@
 .occasions__card {
     width: 270px;
     background-color: #FAFAFA;
+    margin-right: 30px;
 }
 
 .occasions__card:hover {

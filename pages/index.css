@@ -37,6 +37,14 @@
 @import url(../blocks/occasions/__name/occasions__name.css);
 @import url(../blocks/occasions/__link/occasions__link.css);
 
+@import url(../blocks/cta/cta.css);
+@import url(../blocks/cta/__texts/cta__texts.css);
+@import url(../blocks/cta/__title/cta__title.css);
+@import url(../blocks/cta/__connect/cta__connect.css);
+@import url(../blocks/cta/__link/cta__link.css);
+@import url(../blocks/cta/__button-gift/cta__button-gift.css);
+@import url(../blocks/cta/__button-instruction/cta__button-instruction.css);
+
 
 @import url(../blocks/footer/footer.css);
 

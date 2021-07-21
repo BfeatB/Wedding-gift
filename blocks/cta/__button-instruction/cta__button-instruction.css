@@ -1,0 +1,14 @@
+.cta__button-instruction {
+    cursor: pointer;
+    padding: 0 42px 0 42px;
+    border: none;
+    font: inherit;
+    color: white;
+    background-color: #231F20;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 95px 235px 93px 30px;
+}
