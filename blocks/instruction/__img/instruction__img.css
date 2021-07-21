@@ -5,6 +5,14 @@
     object-position: center;
 }
 
+.instruction__img:hover {
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 25%);
+}
+
+.instruction__img:focus {
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 25%);
+}
+
 @media screen and (max-width: 1200px) {
     .instruction__img {
         object-fit: contain;

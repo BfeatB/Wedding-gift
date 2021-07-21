@@ -28,6 +28,15 @@
 @import url(../blocks/instruction/__caption/instruction__caption.css);
 @import url(../blocks/instruction/__button/instruction__button.css);
 
+@import url(../blocks/occasions/occasions.css);
+@import url(../blocks/occasions/__title/occasions__title.css);
+@import url(../blocks/occasions/__caption/occasions__caption.css);
+@import url(../blocks/occasions/__cards/occasions__cards.css);
+@import url(../blocks/occasions/__card/occasions__card.css);
+@import url(../blocks/occasions/__img/occasions__img.css);
+@import url(../blocks/occasions/__name/occasions__name.css);
+@import url(../blocks/occasions/__link/occasions__link.css);
+
 
 @import url(../blocks/footer/footer.css);
 
