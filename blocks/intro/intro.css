@@ -1,0 +1,8 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 37px;
+    background-color: #F1F1F2;
+    max-width: 1440px
+}

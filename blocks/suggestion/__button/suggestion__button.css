@@ -1,0 +1,17 @@
+.suggestion__button {
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 20px 35px 19px 37px;
+    border: none;
+    font-family: inherit;
+    color: white;
+    background-color: #F7941E;
+    border-radius: 5px;
+    margin-left: 3px;
+}
