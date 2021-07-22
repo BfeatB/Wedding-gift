@@ -29,6 +29,11 @@
 @media screen and (max-width: 767px) {
     .instruction__img {
         max-height: 300px;
-        padding: 0;
+        padding: 0 0 40px 0;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .instruction__img {
+        padding: 0;
+    }
