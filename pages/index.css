@@ -65,6 +65,16 @@
 @import url(../blocks/miner-blog/__link/minor-blog__link.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__social-media/footer__social-media.css);
+@import url(../blocks/footer/__media-list/footer__media-list.css);
+@import url(../blocks/footer/__media-link/footer__media-link.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/effects/effects_opacity.css);
 @import url(../blocks/effects/effects_shadow.css);

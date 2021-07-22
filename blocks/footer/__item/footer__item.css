@@ -1,0 +1,7 @@
+.footer__item {
+    min-width: 119px;
+}
+
+.footer__item:nth-child(2) {
+    margin-right: auto;
+}
