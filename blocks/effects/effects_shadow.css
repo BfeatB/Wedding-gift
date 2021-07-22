@@ -1,0 +1,7 @@
+.effects_shadow:hover {   
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.effects_shadow:focus {   
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}

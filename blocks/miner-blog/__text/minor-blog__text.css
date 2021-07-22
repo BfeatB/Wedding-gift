@@ -1,0 +1,16 @@
+.minor-blog__text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    margin: 0 0 37px 0;
+}
