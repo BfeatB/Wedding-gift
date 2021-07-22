@@ -5,3 +5,13 @@
     max-width: 95%;
     margin: 20px 105px 75px 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .blog__article-title {
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 400;
+        max-width: 95%;
+        margin: 20px 65px 55px 0;
+    }
+}

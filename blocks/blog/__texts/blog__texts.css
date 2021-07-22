@@ -5,3 +5,15 @@
     color: #FFFFFF;
     padding: 59px 39px 21px 78px;
 }
+
+@media screen and (max-width: 1000px) {
+    .blog__texts {
+        padding: 45px 29px 21px 58px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .blog__texts {
+        padding: 45px 45px;
+    }
+}
