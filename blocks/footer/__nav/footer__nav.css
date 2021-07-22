@@ -5,3 +5,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__nav {
+        width: 95%;
+        border-bottom: 1px solid black;
+    }
+}
