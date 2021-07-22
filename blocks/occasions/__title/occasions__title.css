@@ -4,4 +4,12 @@
     font-size: 32px;
     line-height: 38px;
     font-weight: 400;
+    max-width: 95%;
+}
+
+@media screen and (max-width: 500px) {
+    .occasions__title {
+        font-size: 22px;
+        line-height: 28px;
+    }  
 }

@@ -4,4 +4,13 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 68px;
+    max-width: 95%;
+}
+
+@media screen and (max-width: 500px) {
+    .occasions__caption {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 10px;
+    }  
 }

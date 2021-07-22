@@ -3,4 +3,26 @@
     display: flex;
     max-width: 1440px;
     min-width: 320px;
+    padding: 71px 235px 79px 235px;
+}
+
+@media screen and (max-width: 1320px) {
+    .cta {
+        padding: 71px 10% 79px 10%;
+    } 
+}
+
+@media screen and (max-width: 980px) {
+    .cta {
+        padding: 60px auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 10% 28px 10%;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .cta {
+        padding: 40px 0;
+    } 
 }

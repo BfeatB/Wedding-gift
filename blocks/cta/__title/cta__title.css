@@ -1,6 +1,14 @@
 .cta__title {
     margin: 0;
-    padding: 72px 0 0 0;
+    padding: 0;
     font-size: 32px;
     line-height: 45px;
+}
+
+@media screen and (max-width: 550px) {
+    .cta__title {
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+    } 
 }

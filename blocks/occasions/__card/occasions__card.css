@@ -1,10 +1,10 @@
 .occasions__card {
     width: 270px;
     background-color: #FAFAFA;
-    margin-right: 30px;
 }
 
 .occasions__card:hover {
     background-color: white;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
+

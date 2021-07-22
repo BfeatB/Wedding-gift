@@ -3,3 +3,12 @@
     line-height: 45px;
     margin: 0 0 0 0;
 }
+
+@media screen and (max-width: 550px) {
+    .cta__connect {
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 5px;
+    } 
+}

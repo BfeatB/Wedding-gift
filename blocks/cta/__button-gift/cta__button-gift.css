@@ -1,6 +1,6 @@
 .cta__button-gift {
     cursor: pointer;
-    padding: 0 42px 0 42px;
+    padding: 0 36px 0 35px;
     border: none;
     font: inherit;
     color: white;
@@ -10,5 +10,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 95px 0 93px 233px;
+    margin: 25px 0 14px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 980px) {
+    .cta__button-gift {
+        padding: 15px 36px 14px 35px;
+    } 
 }
