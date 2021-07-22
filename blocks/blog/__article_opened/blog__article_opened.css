@@ -1,0 +1,10 @@
+.blog__article_opened {
+    cursor: pointer;
+    padding: 0 0 0 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 25px;
+}

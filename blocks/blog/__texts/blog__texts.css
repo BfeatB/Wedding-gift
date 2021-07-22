@@ -1,0 +1,7 @@
+.blog__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+    padding: 59px 39px 21px 78px;
+}

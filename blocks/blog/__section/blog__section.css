@@ -1,0 +1,7 @@
+.blog__section {
+    background-color: #231F20;
+    max-width: 1170px;
+    min-width: 320px;
+    display: flex;
+    margin: 77px auto 0 auto;
+}
