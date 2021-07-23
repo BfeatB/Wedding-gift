@@ -10,6 +10,7 @@
     margin: 39px 33px 0 33px;
     background-color: transparent;
     font-family: 'Gilroy', 'Arial', sans-serif;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

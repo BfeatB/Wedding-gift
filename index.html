@@ -166,69 +166,78 @@
         </li>
     </template>
 
-    <div class="popup popup_opened">
+    <div class="popup">
         <div class="popup__container">
-          <button type="button" class="popup__close"></button>
-          <h3 class="popup__title">Lets find a perfect gift!</h3>
-          <form class=" popup__form" name="gift-search">
+            <button type="button" class="popup__close effects effects_opacity"></button>
+            <h3 class="popup__title">Lets find a perfect gift!</h3>
+            <form class="popup__form" name="gift-search">
 
-            <label class="popup__label">What's the event?
-                <select class="popup__select" id="occasion">
-                    <option class="popup__item" value="Birthday">Birthday</option>
-                    <option class="popup__item" value="Anniversary">Anniversary</option>
-                    <option class="popup__item" value="Christmas">Christmas</option>
-                    <option class="popup__item" value="Wedding">Wedding</option>
-                    <option class="popup__item" value="Birth of a child">Birth of a child</option>
-                    <option class="popup__item" value="other">other</option>
-                </select>
-            </label>
-
-            <label class="popup__label">Who is the gift for?
-                    <select class="popup__select" id="attitude">
-                        <option class="popup__item" value="partner">partner</option>
-                        <option class="popup__item" value="parent">parent</option>
-                        <option class="popup__item" value="child">child</option>
-                        <option class="popup__item" value="relative">relative</option>
-                        <option class="popup__item" value="friend">friend</option>
-                        <option class="popup__item" value="colleague">colleague</option>
-                        <option class="popup__item" value="boss">boss</option>
-                        <option class="popup__item" value="annoying boss">annoying boss</option>
+                <label class="popup__label">What's the event?
+                    <select class="popup__select" id="occasion">
+                        <option class="popup__item" value="Birthday">Birthday</option>
+                        <option class="popup__item" value="Anniversary">Anniversary</option>
+                        <option class="popup__item" value="Christmas">Christmas</option>
+                        <option class="popup__item" value="Wedding">Wedding</option>
+                        <option class="popup__item" value="Birth of a child">Birth of a child</option>
                         <option class="popup__item" value="other">other</option>
                     </select>
-            </label>
+                </label>
+
+                <label class="popup__label">Who is the gift for?
+                        <select class="popup__select" id="attitude">
+                            <option class="popup__item" value="partner">partner</option>
+                            <option class="popup__item" value="parent">parent</option>
+                            <option class="popup__item" value="child">child</option>
+                            <option class="popup__item" value="relative">relative</option>
+                            <option class="popup__item" value="friend">friend</option>
+                            <option class="popup__item" value="colleague">colleague</option>
+                            <option class="popup__item" value="boss">boss</option>
+                            <option class="popup__item" value="annoying boss">annoying boss</option>
+                            <option class="popup__item" value="other">other</option>
+                        </select>
+                </label>
             
-            <label class="popup__label">What the lucky one gender is?
-                    <select class="popup__select" id="sex">
-                        <option class="popup__item" value="male">male</option>
-                        <option class="popup__item" value="female">female</option>
-                        <option class="popup__item" value="it doesn't matter">it doesn't matter</option>
-                    </select>
-            </label>
-                
-            <label class="popup__label">What the lucky one age is?
-                    <select class="popup__select" id="age">
-                        <option class="popup__item" value="up to 5">up to 5</option>
-                        <option class="popup__item" value="from 5 to 10">from 5 to 10</option>
-                        <option class="popup__item" value="from 10 to 15">from 10 to 15</option>
-                        <option class="popup__item" value="from 15 to 20">from 15 to 20</option>
-                        <option class="popup__item" value="from 20 to 30">from 20 to 30</option>
-                        <option class="popup__item" value="from 30 to 45">from 30 to 45</option>
-                        <option class="popup__item" value="from 45 to 60">from 45 to 60</option>
-                        <option class="popup__item" value="over 60">over 60</option>
-                    </select>
+                <label class="popup__label">What the lucky one gender is?
+                        <select class="popup__select" id="sex">
+                            <option class="popup__item" value="male">male</option>
+                            <option class="popup__item" value="female">female</option>
+                            <option class="popup__item" value="it doesn't matter">it doesn't matter</option>
+                        </select>
                 </label>
+                    
+                <label class="popup__label">What the lucky one age is?
+                        <select class="popup__select" id="age">
+                            <option class="popup__item" value="up to 5">up to 5</option>
+                            <option class="popup__item" value="from 5 to 10">from 5 to 10</option>
+                            <option class="popup__item" value="from 10 to 15">from 10 to 15</option>
+                            <option class="popup__item" value="from 15 to 20">from 15 to 20</option>
+                            <option class="popup__item" value="from 20 to 30">from 20 to 30</option>
+                            <option class="popup__item" value="from 30 to 45">from 30 to 45</option>
+                            <option class="popup__item" value="from 45 to 60">from 45 to 60</option>
+                            <option class="popup__item" value="over 60">over 60</option>
+                        </select>
+                    </label>
 
-                <label class="popup__label">How much are you ready spend?
-                    <select class="popup__select" id="amount">
-                        <option class="popup__item" value="up to 50$">up to 50$</option>
-                        <option class="popup__item" value="from 50$ to 200$">from 50$ to 200$</option>
-                        <option class="popup__item" value="from 200$ to 500$">from 200$ to 500$</option>
-                        <option class="popup__item" value="over 500$">over 500$</option>
-                    </select>
-                </label>
+                    <label class="popup__label">How much are you ready spend?
+                        <select class="popup__select" id="amount">
+                            <option class="popup__item" value="up to 50$">up to 50$</option>
+                            <option class="popup__item" value="from 50$ to 200$">from 50$ to 200$</option>
+                            <option class="popup__item" value="from 200$ to 500$">from 200$ to 500$</option>
+                            <option class="popup__item" value="over 500$">over 500$</option>
+                        </select>
+                    </label>
 
-            <button class="popup__button" type="submit">Search</button>
-          </form>
+                <button class="popup__button effects effects_opacity" type="submit">Search</button>
+             </form>
+
+            <div class="popup__pardon">
+                <p class="popup__pardon-text">Sorry, honey, but it is not a real service.
+                    I am only a fresh frontend-developer and know nothing about good gifts.
+                    But I can give you an advice...Money. Everybody loves money.
+                </p>
+                <p class="popup__pardon-text"> You are welcome.</p>
+                <button class="popup__ok-button" type="button">OK</button>
+            </div>
         </div>
       </div>
     

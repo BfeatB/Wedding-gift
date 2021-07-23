@@ -1,3 +1,5 @@
+//add occasions cards
+
 const cards = [
   { 
     image: "./images/Rectangle.svg",
@@ -39,5 +41,33 @@ for (const card of cards) {
   cardNode.querySelector(".occasions__link").setAttribute("href", card.url);
   cardsContainer.appendChild(cardNode);
 }
+
+
+ //popUp
+
+let giftButton = document.querySelector(".header__button");
+let giftPopup = document.querySelector(".popup");
+
+let closeButton = document.querySelector(".popup__close");
+
+//Open popup
+function onClickGiftButton(){
+  giftPopup.classList.add("popup_opened");
+}
+
+
+giftButton.addEventListener("click", onClickGiftButton);
+
+//Close popup
+function onClickCloseButton(){
+  giftPopup.classList.remove("popup_opened");
+}
+
+closeButton.addEventListener("click", onClickCloseButton);
+
+//submitGiftButton
+
+const submitGiftButton = document.querySelector(".popup__button");
+
 
 

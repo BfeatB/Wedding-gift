@@ -1,0 +1,23 @@
+.popup__ok-button {
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    font-family: inherit;
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: 30px auto 10px auto;  
+}
+
+@media screen and (max-width: 767px) {
+    .popup__ok-button {
+        margin: 10px auto 10px auto;  
+    }
+}

@@ -87,6 +87,9 @@
 @import url(../blocks/popup/__select/popup__select.css);
 @import url(../blocks/popup/__item/popup__item.css);
 @import url(../blocks/popup/__button/popup__button.css);
+@import url(../blocks/popup/__pardon/popup__pardon.css);
+@import url(../blocks/popup/__pardon-text/popup__pardon-text.css);
+@import url(../blocks/popup/__ok-button/popup__ok-button.css);
 
 
 @import url(../blocks/effects/effects_opacity.css);
