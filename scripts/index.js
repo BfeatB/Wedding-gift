@@ -45,29 +45,54 @@ for (const card of cards) {
 
  //popUp
 
-let giftButton = document.querySelector(".header__button");
+const giftButtons = document.querySelectorAll(".js-open-popup");
 let giftPopup = document.querySelector(".popup");
 
-let closeButton = document.querySelector(".popup__close");
+let closeButton = document.querySelector(".popup__close-button");
 
 //Open popup
+
+for(const giftButton of giftButtons) {
+  giftButton.addEventListener("click", onClickGiftButton);
+}
+
 function onClickGiftButton(){
   giftPopup.classList.add("popup_opened");
 }
 
 
-giftButton.addEventListener("click", onClickGiftButton);
-
 //Close popup
-function onClickCloseButton(){
+function closePopup(){
   giftPopup.classList.remove("popup_opened");
 }
 
-closeButton.addEventListener("click", onClickCloseButton);
+closeButton.addEventListener("click", closePopup);
 
 //submitGiftButton
 
-const submitGiftButton = document.querySelector(".popup__button");
+const submitGiftButtons = document.querySelector(".js-open-popup");
+const pardonPopup = document.querySelector(".popup__pardon");
+const containerPopup = document.querySelector(".popup__form")
+const formPopup = document.querySelector(".popup__form")
 
+function onClickSubmitButton(evt){
+  evt.preventDefault();
+  formPopup.classList.add("popup__form_closed");
+  pardonPopup.classList.remove("popup__pardon_closed");
+}
+
+formPopup.addEventListener("click", onClickSubmitButton);
+
+//close popup with ok-button
+
+const okButton = document.querySelector(".popup__ok-button");
+
+function onClickOkButton() {
+  formPopup.classList.remove("popup__form_closed");
+  pardonPopup.classList.add("popup__pardon_closed");
+  closePopup();
+}
+
+okButton.addEventListener("click", onClickOkButton);
 
 

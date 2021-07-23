@@ -21,7 +21,7 @@
                <li class="header__item"><a href ="#" class="header__link effects effects_opacity">Blogs</a></li>               
            </ul>
        </nav>
-       <button class="header__button effects effects_opacity">gift finder</button>
+       <button class="header__button effects effects_opacity js-open-popup">gift finder</button>
    </header> 
 
    <main class="main">
@@ -31,7 +31,7 @@
                    <h1 class="suggestion__title">Find a gift for your wife or girlfriend</h1>
                    <p class="suggestion__caption">Struggling to find a gift for your wife or girlfriend?
                     No problem!</p>
-                   <button type="button" class="suggestion__button effects effects_opacity">Find gift now</button>
+                   <button type="button" class="suggestion__button effects effects_opacity js-open-popup">Find gift now</button>
                </div>
                <img class="suggestion__img scale effects effects_shadow" alt="happy couple" src="images/suggestion-img.svg">
            </article>
@@ -61,7 +61,7 @@
                <h4 class="cta__title">Ready to get started?</h4>
                <p class="cta__connect"><a class="cta__link" href="#">Sign up</a> or <a class="cta__link" href="#">contact us</a></p>
            </div>
-           <button type="button" class="cta__button-gift effects effects_opacity">Find&nbsp;gift&nbsp;now</button>
+           <button type="button" class="cta__button-gift effects effects_opacity js-open-popup">Find&nbsp;gift&nbsp;now</button>
            <button type="button" class="cta__button-instruction effects effects_opacity">how&nbsp;it&nbsp;works</button>
        </section>
 
@@ -158,6 +158,8 @@
 <p class="footer__copyright">&commat;2021 V.Karpova</p>
 </footer>
 
+<!--Template for occasion's cards-->
+
    <template id="cardTemplate">
         <li class="occasions__card effects effects_shadow">
             <img class="occasions__img" alt="" src="">
@@ -166,9 +168,11 @@
         </li>
     </template>
 
+<!--Popup with questions for a gift search-->
+
     <div class="popup">
         <div class="popup__container">
-            <button type="button" class="popup__close effects effects_opacity"></button>
+            <button type="button" class="popup__close-button effects effects_opacity js-close-popup"></button>
             <h3 class="popup__title">Lets find a perfect gift!</h3>
             <form class="popup__form" name="gift-search">
 
@@ -218,7 +222,7 @@
                         </select>
                     </label>
 
-                    <label class="popup__label">How much are you ready spend?
+                    <label class="popup__label">How much are you ready to spend?
                         <select class="popup__select" id="amount">
                             <option class="popup__item" value="up to 50$">up to 50$</option>
                             <option class="popup__item" value="from 50$ to 200$">from 50$ to 200$</option>
@@ -230,17 +234,35 @@
                 <button class="popup__button effects effects_opacity" type="submit">Search</button>
              </form>
 
-            <div class="popup__pardon">
+<!--Popup with advice instead of real result-->
+
+            <div class="popup__pardon popup__pardon_closed">
                 <p class="popup__pardon-text">Sorry, honey, but it is not a real service.
                     I am only a fresh frontend-developer and know nothing about good gifts.
                     But I can give you an advice...Money. Everybody loves money.
                 </p>
-                <p class="popup__pardon-text"> You are welcome.</p>
+                <p class="popup__pardon-text popup__pardon-text_right"> You are welcome.</p>
                 <button class="popup__ok-button" type="button">OK</button>
             </div>
         </div>
       </div>
-    
+
+<!--Learn more popup-->
+
+            <div class="popup">
+                <div class="popup__container">
+                    <button type="button" class="popup__close-button js-close-popup"></button>
+                    <p class="popup__text">
+                    Okey, sweet bun, I can't tell you about working principles of an non-existent website.
+                    But if you really want to learn more I have an interesting sciense fact for you:
+                    </p>
+                    <h4 class="popup__article-title">About 1% of our genes come from plants, fungi, and other germs</h4>
+                    <p class="popup__article-text">According to research from the University of Cambridge, humans have evolved with genes acquired from plants and fungi. But how did they get there? Rather than a straightforward single branching tree where genes are inherited from parents, scientists argue that sometimes foreign genes may spread by a process known as horizontal gene transfer. For instance, different species of bacteria often exchange genes via viruses.
+                    </p>
+                    <button class="popup__button js-close-popup">Thanks, I get it!</buttom>
+                </div>
+            </div>
+      
 
     <script src="./scripts/index.js"></script>
 </body>
