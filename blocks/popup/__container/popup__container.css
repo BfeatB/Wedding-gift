@@ -1,0 +1,13 @@
+.popup__container {
+    background-color: #F7941E;
+    border-radius: 6px;
+    max-width: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(20, 19, 19, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px
+
+}
