@@ -21,7 +21,7 @@
                <li class="header__item"><a href ="#" class="header__link effects effects_opacity">Blogs</a></li>               
            </ul>
        </nav>
-       <button class="header__button effects effects_opacity js-open-popup">gift finder</button>
+       <button class="header__button effects effects_opacity js-open-popup" data-popupId="popup-1">gift finder</button>
    </header> 
 
    <main class="main">
@@ -31,9 +31,9 @@
                    <h1 class="suggestion__title">Find a gift for your wife or girlfriend</h1>
                    <p class="suggestion__caption">Struggling to find a gift for your wife or girlfriend?
                     No problem!</p>
-                   <button type="button" class="suggestion__button effects effects_opacity js-open-popup">Find gift now</button>
+                   <button type="button" class="suggestion__button effects effects_opacity js-open-popup" data-popupId="popup-1">Find gift now</button>
                </div>
-               <img class="suggestion__img scale effects effects_shadow" alt="happy couple" src="images/suggestion-img.svg">
+               <img class="suggestion__img s cale effects effects_shadow" alt="happy couple" src="images/suggestion-img.svg">
            </article>
 
            <article class="instruction">
@@ -43,7 +43,7 @@
                 <p class="instruction__caption">We’ve actually already asked hundreds of women what they want,
                      and made a database with the results. All you have to do is take our short survey that only
                       takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
-                <button type="button" class="instruction__button effects effects_opacity">learn more</button>
+                <button type="button" class="instruction__button effects effects_opacity js-open-popup" data-popupId="popup-2">learn more</button>
             </div>
            </article>
        </section>
@@ -61,8 +61,8 @@
                <h4 class="cta__title">Ready to get started?</h4>
                <p class="cta__connect"><a class="cta__link" href="#">Sign up</a> or <a class="cta__link" href="#">contact us</a></p>
            </div>
-           <button type="button" class="cta__button-gift effects effects_opacity js-open-popup">Find&nbsp;gift&nbsp;now</button>
-           <button type="button" class="cta__button-instruction effects effects_opacity">how&nbsp;it&nbsp;works</button>
+           <button type="button" class="cta__button-gift effects effects_opacity js-open-popup" data-popupId="popup-1">Find&nbsp;gift&nbsp;now</button>
+           <button type="button" class="cta__button-instruction effects effects_opacity js-open-popup" data-popupId="popup-2">how&nbsp;it&nbsp;works</button>
        </section>
 
        <section class="blog">
@@ -170,9 +170,9 @@
 
 <!--Popup with questions for a gift search-->
 
-    <div class="popup">
+    <div class="popup" id="popup-1">
         <div class="popup__container">
-            <button type="button" class="popup__close-button effects effects_opacity js-close-popup"></button>
+            <button type="button" class="popup__close-button effects effects_opacity js-close-popup" data-popupId="popup-1"></button>
             <h3 class="popup__title">Lets find a perfect gift!</h3>
             <form class="popup__form" name="gift-search">
 
@@ -239,27 +239,27 @@
             <div class="popup__pardon popup__pardon_closed">
                 <p class="popup__pardon-text">Sorry, honey, but it is not a real service.
                     I am only a fresh frontend-developer and know nothing about good gifts.
-                    But I can give you an advice...Money. Everybody loves money.
+                    But I can give you an advice... Money! Everybody loves money.
                 </p>
                 <p class="popup__pardon-text popup__pardon-text_right"> You are welcome.</p>
-                <button class="popup__ok-button" type="button">OK</button>
+                <button class="popup__ok-button js-close-popup" data-popupId="popup-1" type="button">OK</button>
             </div>
         </div>
-      </div>
+    </div>
 
 <!--Learn more popup-->
 
-            <div class="popup">
+            <div class="popup" id="popup-2">
                 <div class="popup__container">
-                    <button type="button" class="popup__close-button js-close-popup"></button>
+                    <button type="button" class="popup__close-button js-close-popup" data-popupId="popup-2"></button>
                     <p class="popup__text">
-                    Okey, sweet bun, I can't tell you about working principles of an non-existent website.
+                    Okay, sweet bun, I can't tell you about working principles of an non-existent website.
                     But if you really want to learn more I have an interesting sciense fact for you:
                     </p>
                     <h4 class="popup__article-title">About 1% of our genes come from plants, fungi, and other germs</h4>
                     <p class="popup__article-text">According to research from the University of Cambridge, humans have evolved with genes acquired from plants and fungi. But how did they get there? Rather than a straightforward single branching tree where genes are inherited from parents, scientists argue that sometimes foreign genes may spread by a process known as horizontal gene transfer. For instance, different species of bacteria often exchange genes via viruses.
                     </p>
-                    <button class="popup__button js-close-popup">Thanks, I get it!</buttom>
+                    <button class="popup__button js-close-popup" data-popupId="popup-2">Thanks, I get it!</buttom>
                 </div>
             </div>
       

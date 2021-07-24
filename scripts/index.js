@@ -45,32 +45,35 @@ for (const card of cards) {
 
  //popUp
 
-const giftButtons = document.querySelectorAll(".js-open-popup");
 let giftPopup = document.querySelector(".popup");
 
 let closeButton = document.querySelector(".popup__close-button");
 
 //Open popup
 
-for(const giftButton of giftButtons) {
-  giftButton.addEventListener("click", onClickGiftButton);
-}
+document.addEventListener("click", function(e) {
+  if (e.target.classList.contains("js-open-popup")) {
+    openPopup(e.target.dataset.popupid);
+  }
+});
 
-function onClickGiftButton(){
-  giftPopup.classList.add("popup_opened");
+function openPopup(id) {
+  console.log(id);
+  document.getElementById(id).classList.add("popup_opened");
 }
-
 
 //Close popup
-function closePopup(){
-  giftPopup.classList.remove("popup_opened");
+document.addEventListener("click", function(e) {
+  if (e.target.classList.contains("js-close-popup")) {
+    closePopup(e.target.dataset.popupid);
+  }
+});
+
+function closePopup(id) { 
+  document.getElementById(id).classList.remove("popup_opened");
 }
-
-closeButton.addEventListener("click", closePopup);
-
 //submitGiftButton
 
-const submitGiftButtons = document.querySelector(".js-open-popup");
 const pardonPopup = document.querySelector(".popup__pardon");
 const containerPopup = document.querySelector(".popup__form")
 const formPopup = document.querySelector(".popup__form")
@@ -90,7 +93,6 @@ const okButton = document.querySelector(".popup__ok-button");
 function onClickOkButton() {
   formPopup.classList.remove("popup__form_closed");
   pardonPopup.classList.add("popup__pardon_closed");
-  closePopup();
 }
 
 okButton.addEventListener("click", onClickOkButton);
