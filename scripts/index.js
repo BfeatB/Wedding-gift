@@ -81,7 +81,7 @@ function onClickSubmitButton(evt){
   pardonPopup.classList.remove("popup__pardon_closed");
 }
 
-formPopup.addEventListener("click", onClickSubmitButton);
+formPopup.addEventListener("submit", onClickSubmitButton);
 
 //close popup with ok-button
 
