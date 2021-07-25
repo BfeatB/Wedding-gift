@@ -72,6 +72,7 @@ document.addEventListener("click", function(e) {
 function closePopup(id) { 
   document.getElementById(id).classList.remove("popup_opened");
 }
+
 //submitGiftButton
 
 const pardonPopup = document.querySelector(".popup__pardon");

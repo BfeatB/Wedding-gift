@@ -7,4 +7,5 @@
     bottom: 0;
     overflow-y: scroll;
     display: none;
+    justify-content: center;
 }

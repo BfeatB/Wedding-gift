@@ -14,3 +14,10 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 650px) {
+    .popup__close-button{
+        top: 15px;
+        right: 15px;
+    }
+}
